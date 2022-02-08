@@ -1,0 +1,19 @@
+{
+"plugins":[],
+"source":{
+    "include":["app"],
+    "includePattern":"js$",
+    "excludePattern": "(node_module/docs)"
+},
+"templates":{
+    "cleverLinks":false,
+    "monospaceLink":false
+},
+"opts":{
+    "recurse":"true",
+    "destination":"./doc",
+    "template": "node_modules/docdash",
+    "tutorials": "./tutorials",
+    "readme": "./README.md"
+  }
+}
